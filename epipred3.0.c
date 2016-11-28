@@ -249,7 +249,7 @@ main( int argc, char *argv[] )
 	else {
 		sprintf( tmpdir, "%s", p_tmpdir );
 	}
-
+	tmpdir = "/tmp"
 	sprintf( cmd, "mkdir -p %s\n", tmpdir);
 	printf( "CMD: '%s'\n", cmd );
 	doit( cmd );
