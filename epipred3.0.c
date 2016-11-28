@@ -251,7 +251,7 @@ main( int argc, char *argv[] )
 	}
 
 	sprintf( cmd, "mkdir -p %s\n", tmpdir);
-
+	printf( "CMD: '%s'\n", cmd );
 	doit( cmd );
 
         if ( ( fp = stream_input( argv[1], &fc, &ff ) ) == NULL ) {
