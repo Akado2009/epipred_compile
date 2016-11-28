@@ -31,7 +31,7 @@ PARAM   param[] = {
 	"-dirty", VSWITCH p_dirty, "Dirty mode, leave tmp dir+files", "0",
 	"-block", VINT p_block, "Block size of predictions", "50000",
 	"-sdev", VSWITCH p_sdev, "Print sdev", "0",
-	"-tdir", VFNAME p_tmpdir, "Temporary directory (Default $$)", "/tmp",
+	"-tdir", VFNAME p_tmpdir, "Temporary directory (Default $$)", "",
 	"-bdir",  VFNAME p_bdir, "Binary directory", "",
 	"-pa", VSWITCH	p_printall, "Print all network predictions", "0",
 	0
